@@ -19,6 +19,7 @@ ingestions.
 *   Create a BigQuery dataset - tables will be created automatically per report.
 *   Create a new IAM Service Account for Argon, with the BigQuery Admin role.
 *   Enable the necessary APIs in API Explorer, or via `gcloud services enable` :
+    *   Cloud Build API (`cloudbuild.googleapis.com`)
     *   DV: DoubleClick Bid Manager API (`doubleclickbidmanager.googleapis.com`)
     *   CM: DCM/DFA Reporting And Trafficking API (`dfareporting.googleapis.com`)
 *   Clone this repository and deploy Argon code to your cloud project:
